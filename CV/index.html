@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Estilo-cv.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@1,300;1,500&family=Montserrat:ital,wght@1,200&family=Tilt+Neon&family=Titillium+Web:ital,wght@1,300&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/de89f7fff6.js" crossorigin="anonymous"></script>
+    <title>Proyecto TICMAS Cv Web</title>
+</head>
+<body>
+    <header>
+        <div id="Titulo">
+            <img src="IMG/Madurez-emocional-7.jpg" alt="Foto de perfil">
+            <h1>Leonela  Maritea Singolani</h1>
+            <p><i class="fa-solid fa-user"></i>Vacunadora / Analista de laboratorio / Enfermera</p>
+        </div>  
+    </header>
+    <nav>
+        <ul id="nv"> 
+         <li><a href="#DATA">Datos</a></li>
+         <li><a href="#Ex">Experiencia</a></li>
+         <li><a href="#In">Intereses</a></li>
+         <li><a href="#ED">Educacion</a></li>
+        </ul>
+      </nav>
+    <section class="main">
+        <section class="article">
+            <article>
+                <h2 id="Ex">Experiencia Laboral</h2>
+                <h3>Sanatorio Guemes</h3>
+                <pre>Marzo 2013 / Diciembre 2016</pre>
+                <p>Tareas principales</p>
+                <p>
+                    Praesent dictum sollicitudin aliquam. Donec eleifend imperdiet condimentum. Etiam non ligula commodo augue volutpat eleifend. Ut at neque interdum, lobortis turpis non, dictum orci. Phasellus vehicula sed risus in sagittis. Morbi at blandit elit. Vivamus vulputate, est nec molestie lacinia, sem felis dignissim ligula, nec venenatis lectus lacus vel enim. Integer eu enim et purus semper blandit. Ut a est eu mi euismod blandit sit amet eu libero.
+                <p>
+                <h3>Hospital Remedios de Escalada</h3>
+                <pre>Enero 2017 / Actualidad</pre>
+                <p>Tareas principales</p>
+                <p>Aenean consectetur placerat urna ut rutrum. Vivamus semper in ante at fermentum. Praesent ligula urna, pretium vitae consectetur ut, lacinia eget arcu. Phasellus interdum dapibus nunc. Suspendisse vitae sapien ac felis pharetra lobortis vel vel nunc. Nam congue nibh at enim facilisis vulputate. Aliquam sed lacus sem. Praesent nec lacus vehicula, blandit mauris vitae, porttitor nisi. Mauris a velit eros.
+                     <br>
+                     <br>
+                <h2 id="ED">Educacion</h2>
+                <p>Facultad de Medicina UBA</p>
+                <pre>Carrera: Medicina</pre>
+                <h3>Cursos</h3>
+                <p>Bioquimica y biotecnica - Avanzado</p>
+                <div class="click" onmouseover="mOver(this)" onmouseout="mOut(this)">Analisis</div>
+                <p>Tecnicas de extraccion - Avanzado</p>
+            </article>
+        </section>
+        <aside>
+            <h2>Sobre mi</h2>
+            <p id="info">Soy una persona multifuncional, con buena actitud ante las situaciones. Me gusta trabajar en equipo y generar un buen ambito laboral. Aprendo rapido y estoy en busqueda activa en una empresa donde pueda seguir sumando experiencia</p>
+            <button type="button" id="ocult">Ocultar info</button>
+            
+            <div id="dt">
+                <h2 id="DATA">Datos Personales</h2><br>
+                <p><i class="fa-regular fa-calendar-days"></i>19/7/1887</p>
+                <p><i class="fa-solid fa-map-location-dot"></i>Direccion: Street boulevar 321</p>
+                <p><i class="fa-solid fa-mobile"></i>Telefono: 011232238</p>
+                <p><i class="fa-solid fa-at"></i>E-mail: Setnecin@yahoo.ar</p>
+                <a href="mailto:Setnecin@yahoo.ar?subject=Contacto&body=prueba email">Enviar mail</a>
+            </div> <br>
+            <h2>Referencias</h2>
+            <p></i>Maria del carmen: <br><i class="fa-solid fa-mobile">437646836</i></p>
+            <p>Francis Retten: <br> <i class="fa-solid fa-mobile">011223322</i></p>
+            <h2 id="In">Intereses Personales</h2>
+            <p>Idiomas:</p>
+            <p id="verIdiomas" style="display:none">
+                Ingles: Avanzado <br>
+                Lenguaje de señas: Nivel II <br>
+                Frances: Intermedio</p>
+            <button type="button" id="buttonID">Ver Idiomas</button>
+        </aside>
+    </section>
+
+    <footer id="foot">Create by Sebas
+        <button type="button" id="fondo">Cambiar color de fondo</button>
+        <button id="myBtn">Mensaje adicional</button>
+    </footer>
+    <script src="Function-cv.js"></script>
+   </body>
+</html>
