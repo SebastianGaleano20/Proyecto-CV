@@ -6,24 +6,32 @@
     font-family: 'Titillium Web', sans-serif;
     color: #c7f9cc;
 }
+.contenedor{
+    width: 90%;
+    max-width: 1400px;
+    margin: 0 auto;
+    overflow: hidden;
+}
 #Titulo p{
     font-size: 25px;
     margin-right: 40px;
+    width: 100%;
 }
 #nv{
-    width: auto;
+    width: 100%;
     overflow: hidden;
     background-color: #c7f9cc;
     clear: both;
     border-radius: 20px;
+    box-sizing: border-box;
 }
 nav ul{
     list-style: none;
 }
 nav ul li{
     float: left;
-    padding: 0px 10px;
-    margin: 0px 10px;
+    padding: 0px;
+    margin: 0px;
     align-self: center;
 }
 nav ul li a{
@@ -70,6 +78,7 @@ img{
     border-radius: 40px;
     float: left;
     width: 30%;
+    height: auto;
 }
 h1{
     margin-left: 140px;
@@ -121,9 +130,26 @@ button:hover{
 }
 footer{
     background-color: #c7f9cc;
+    width: 100%;
     margin: 0;
     padding: 20px;
     color: #000;
     clear: both;
     border-radius: 20px;
+    box-sizing: border-box;
+}
+
+@media screen and (min-width: 800px){
+    .contenedor{
+        width: 100%;
+    }
+    aside{
+        width: 30%;
+        height: auto;
+    }
+}
+@media screen and (min-width: 400px){
+    .contenedor{
+        width: 100%;
+    }
 }
